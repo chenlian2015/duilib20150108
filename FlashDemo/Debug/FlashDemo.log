@@ -1,0 +1,30 @@
+﻿Build started 2015/1/20 16:50:19.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\FlashDemo\FlashDemo.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\FlashDemo.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\FlashDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/FlashDemo.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/FlashDemo.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt App.cpp
+         App.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\FlashDemo\.\Debug\FlashDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\FlashDemo_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(FlashDemo) does not match the Linker's OutputFile property value (FlashDemo_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/FlashDemo_d.exe" /INCREMENTAL:NO /NOLOGO comsuppwd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\FlashDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/FlashDemo.pdb" /MAP:".\Debug/FlashDemo.map" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\FlashDemo.lib" /MACHINE:X86 .\Debug/App.obj
+         .\Debug/StdAfx.obj
+         E:\OpenSource\onGitHub\duilib20150108\lib\DuiLib_d.lib
+         FlashDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\FlashDemo\.\Debug\FlashDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../bin/FlashDemo_d.exe;#1" /manifest .\Debug\FlashDemo.exe.intermediate.manifest
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/FlashDemo.bsc" .\Debug\App.sbr .\Debug\StdAfx.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\FlashDemo.unsuccessfulbuild".
+         Touching ".\Debug\FlashDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\FlashDemo\FlashDemo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.70

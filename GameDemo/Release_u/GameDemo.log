@@ -1,0 +1,29 @@
+﻿Build started 2015/1/20 16:47:35.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\GameDemo\GameDemo.vcxproj" on node 4 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_u\GameDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release_u/GameDemo.pch" /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release_u/GameDemo.pch" /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameDemo.cpp
+         GameDemo.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MiniDumper.cpp
+         MiniDumper.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\GameDemo\.\Release_u\GameDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\GameDemo_u.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(GameDemo) does not match the Linker's OutputFile property value (GameDemo_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/GameDemo_u.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release_u\GameDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release_u/GameDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release_u\GameDemo.lib" /MACHINE:X86 .\Release_u/GameDemo.obj
+         .\Release_u/StdAfx.obj
+         .\Release_u/MiniDumper.obj
+         E:\OpenSource\onGitHub\duilib20150108\Lib\DuiLib_u.lib
+         GameDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\GameDemo\.\Release_u\GameDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../bin/GameDemo_u.exe;#1" /manifest .\Release_u\GameDemo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release_u\GameDemo.unsuccessfulbuild".
+         Touching ".\Release_u\GameDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\GameDemo\GameDemo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24

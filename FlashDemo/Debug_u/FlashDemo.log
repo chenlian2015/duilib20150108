@@ -1,0 +1,22 @@
+﻿Build started 2015/1/20 16:46:04.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\FlashDemo\FlashDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug_u\FlashDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\FlashDemo\.\Debug_u\FlashDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\FlashDemo_ud.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(FlashDemo) does not match the Linker's OutputFile property value (FlashDemo_ud). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         FlashDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\FlashDemo\.\Debug_u\FlashDemo.exe
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\Debug_u\FlashDemo.unsuccessfulbuild".
+         Touching ".\Debug_u\FlashDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\FlashDemo\FlashDemo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

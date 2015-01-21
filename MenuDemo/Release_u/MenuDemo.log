@@ -1,0 +1,37 @@
+﻿Build started 2015/1/20 16:47:30.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\MenuDemo\MenuDemo.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_u\MenuDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt debug.cpp main_frame.cpp StdAfx.cpp UICrack.cpp UIMenu.cpp main.cpp
+         debug.cpp
+         main_frame.cpp
+         StdAfx.cpp
+         UICrack.cpp
+         UIMenu.cpp
+         main.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /l"0x0406" /nologo /fo".\Release_u\MenuDemo.res" MenuDemo.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\MenuDemo\.\Release_u\MenuDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\MenuDemo_u.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(MenuDemo) does not match the Linker's OutputFile property value (MenuDemo_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/MenuDemo_u.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release_u\MenuDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release_u/MenuDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release_u\MenuDemo.lib" /MACHINE:X86 .\Release_u\MenuDemo.res
+         .\Release_u/debug.obj
+         .\Release_u/main_frame.obj
+         .\Release_u/StdAfx.obj
+         .\Release_u/UICrack.obj
+         .\Release_u/UIMenu.obj
+         .\Release_u/main.obj
+         E:\OpenSource\onGitHub\duilib20150108\Lib\DuiLib_u.lib
+         MenuDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\MenuDemo\.\Release_u\MenuDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../bin/MenuDemo_u.exe;#1" /manifest .\Release_u\MenuDemo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release_u\MenuDemo.unsuccessfulbuild".
+         Touching ".\Release_u\MenuDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\MenuDemo\MenuDemo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.78

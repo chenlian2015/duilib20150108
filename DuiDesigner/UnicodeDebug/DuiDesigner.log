@@ -1,0 +1,25 @@
+﻿Build started 1/19/2015 3:23:12 PM.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\DuiDesigner\DuiDesigner.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "UnicodeDebug\DuiDesigner.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\UnicodeDebug\DuiDesigner.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\DuiDesigner_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(DuiDesigner) does not match the Linker's OutputFile property value (DuiDesigner_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         DuiDesigner.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\UnicodeDebug\DuiDesigner.exe
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "UnicodeDebug\DuiDesigner.unsuccessfulbuild".
+         Touching "UnicodeDebug\DuiDesigner.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\DuiDesigner\DuiDesigner.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15

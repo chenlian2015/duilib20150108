@@ -1,0 +1,26 @@
+﻿Build started 2015/1/20 16:47:34.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\TestApp1\TestApp1.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_u\TestApp1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release_u/TestApp1.pch" /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release_u/TestApp1.pch" /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp
+         App.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\TestApp1\.\Release_u\TestApp1.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\TestApp1_u.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(TestApp1) does not match the Linker's OutputFile property value (TestApp1_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/TestApp1_u.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release_u\TestApp1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release_u/TestApp1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release_u\TestApp1.lib" /MACHINE:X86 .\Release_u/App.obj
+         .\Release_u/StdAfx.obj
+         E:\OpenSource\onGitHub\duilib20150108\Lib\DuiLib_u.lib
+         TestApp1.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\TestApp1\.\Release_u\TestApp1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../bin/TestApp1_u.exe;#1" /manifest .\Release_u\TestApp1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release_u\TestApp1.unsuccessfulbuild".
+         Touching ".\Release_u\TestApp1.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\TestApp1\TestApp1.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.11

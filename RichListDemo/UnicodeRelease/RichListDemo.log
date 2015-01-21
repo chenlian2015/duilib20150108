@@ -1,0 +1,33 @@
+﻿Build started 2015/1/20 16:47:29.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\RichListDemo\RichListDemo.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "UnicodeRelease\RichListDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"UnicodeRelease\RichListDemo.pch" /Fo"UnicodeRelease\\" /Fd"UnicodeRelease\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"UnicodeRelease\RichListDemo.pch" /Fo"UnicodeRelease\\" /Fd"UnicodeRelease\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RichListDemo.cpp RichListWnd.cpp
+         RichListDemo.cpp
+         RichListWnd.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"UnicodeRelease\RichListDemo.res" RichListDemo.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo_u.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(RichListDemo) does not match the Linker's OutputFile property value (RichListDemo_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo_u.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"UnicodeRelease\RichListDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\UnicodeRelease\RichListDemo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.lib" /MACHINE:X86 UnicodeRelease\RichListDemo.res
+         UnicodeRelease\RichListDemo.obj
+         UnicodeRelease\RichListWnd.obj
+         UnicodeRelease\stdafx.obj
+         E:\OpenSource\onGitHub\duilib20150108\Lib\DuiLib_u.lib
+         Generating code
+         Finished generating code
+         RichListDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo_u.exe;#1" /manifest UnicodeRelease\RichListDemo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "UnicodeRelease\RichListDemo.unsuccessfulbuild".
+         Touching "UnicodeRelease\RichListDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\RichListDemo\RichListDemo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.63

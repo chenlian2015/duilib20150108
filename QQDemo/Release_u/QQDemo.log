@@ -1,0 +1,49 @@
+﻿Build started 2015/1/20 16:47:30.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\QQDemo\QQDemo.vcxproj" on node 4 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_u\QQDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_u/" /Fd".\Release_u/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt chat_dialog.cpp ColorPicker.cpp debug.cpp main.cpp main_frame.cpp StdAfx.cpp UIFriends.cpp UIGroups.cpp UIListCommonDefine.cpp UIMicroBlog.cpp ..\DuiLib\Utils\XUnzip.cpp color_skin.cpp
+         chat_dialog.cpp
+         ColorPicker.cpp
+         debug.cpp
+         main.cpp
+         main_frame.cpp
+         StdAfx.cpp
+         UIFriends.cpp
+         UIGroups.cpp
+         UIListCommonDefine.cpp
+         UIMicroBlog.cpp
+         XUnzip.cpp
+         color_skin.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /l"0x0406" /nologo /fo".\Release_u\QQDemo.res" QQDemo.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\QQDemo\.\Release_u\QQDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\QQDemo_u.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(QQDemo) does not match the Linker's OutputFile property value (QQDemo_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/QQDemo_u.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release_u\QQDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release_u/QQDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release_u\QQDemo.lib" /MACHINE:X86 .\Release_u\QQDemo.res
+         .\Release_u/chat_dialog.obj
+         .\Release_u/ColorPicker.obj
+         .\Release_u/debug.obj
+         .\Release_u/main.obj
+         .\Release_u/main_frame.obj
+         .\Release_u/StdAfx.obj
+         .\Release_u/UIFriends.obj
+         .\Release_u/UIGroups.obj
+         .\Release_u/UIListCommonDefine.obj
+         .\Release_u/UIMicroBlog.obj
+         .\Release_u/XUnzip.obj
+         .\Release_u/color_skin.obj
+         E:\OpenSource\onGitHub\duilib20150108\Lib\DuiLib_u.lib
+         QQDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\QQDemo\.\Release_u\QQDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../bin/QQDemo_u.exe;#1" /manifest .\Release_u\QQDemo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release_u\QQDemo.unsuccessfulbuild".
+         Touching ".\Release_u\QQDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\QQDemo\QQDemo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.78

@@ -1,0 +1,36 @@
+﻿Build started 2015/1/20 16:50:19.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\RichListDemo\RichListDemo.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\RichListDemo.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\RichListDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\RichListDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RichListDemo.cpp RichListWnd.cpp
+         RichListWnd.cpp
+         RichListDemo.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\RichListDemo.res" RichListDemo.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.exe) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(RichListDemo) does not match the Linker's OutputFile property value (RichListDemo_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo_d.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RichListDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug\RichListDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.lib" /MACHINE:X86 Debug\RichListDemo.res
+         Debug\RichListDemo.obj
+         Debug\RichListWnd.obj
+         Debug\stdafx.obj
+         E:\OpenSource\onGitHub\duilib20150108\lib\DuiLib_d.lib
+         RichListDemo.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo_d.exe;#1" /manifest Debug\RichListDemo.exe.intermediate.manifest
+       CopyFilesToOutputDirectory:
+         Copying file from "Debug\RichListDemo.pdb" to "E:\OpenSource\onGitHub\duilib20150108\bin\RichListDemo.pdb".
+       FinalizeBuildStatus:
+         Deleting file "Debug\RichListDemo.unsuccessfulbuild".
+         Touching "Debug\RichListDemo.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\RichListDemo\RichListDemo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.57

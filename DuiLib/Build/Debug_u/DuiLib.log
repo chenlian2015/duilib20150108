@@ -1,0 +1,22 @@
+﻿Build started 1/19/2015 3:21:20 PM.
+     1>Project "E:\OpenSource\onGitHub\duilib20150108\DuiLib\DuiLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Build\Debug_u\DuiLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\OpenSource\onGitHub\duilib20150108\DuiLib\.\Build\Debug_u\DuiLib.dll) does not match the Linker's OutputFile property value (E:\OpenSource\onGitHub\duilib20150108\bin\DuiLib_ud.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_ud). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         DuiLib.vcxproj -> E:\OpenSource\onGitHub\duilib20150108\DuiLib\.\Build\Debug_u\DuiLib.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Build\Debug_u\DuiLib.unsuccessfulbuild".
+         Touching ".\Build\Debug_u\DuiLib.lastbuildstate".
+     1>Done Building Project "E:\OpenSource\onGitHub\duilib20150108\DuiLib\DuiLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04
